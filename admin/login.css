@@ -1,0 +1,25 @@
+
+
+footer{
+    margin-top: 1em;
+    text-align: center;
+    color: #E44236;
+    font-weight: bold;
+    
+}
+
+#login-card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width:25em;
+    height:27em;
+    padding:.6em 2em 3em 2em;
+    margin: 0 auto;
+    margin-top: 2.4em;
+    
+}
+
+#help{
+    float: right;
+    margin-top: 2em;
+}

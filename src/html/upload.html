@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/src/img/fevicon.png" />
+    <!-- Bootstrap CSS 3.3.7 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/upload.css">
+
+</head>
+
+<body>
+    <form action="../php/upload.php" method="post" class="dropzone" id="form" enctype="multipart/form-data">
+        <div class="wrapper">
+            <div class="file-upload fallback">
+                <div class="preview"></div>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <i class="fas fa-upload"></i>
+            </div>
+        </div>
+        <h1>UPLOAD FILE</h1>
+        <h2>(Note: Only .ppx, .ppt, .ppsx or .pdf file extenssion are valid for upload)</h2>
+
+        <button type="submit" name="submit" class="btn btn-block btn-info">click to upload file</button>
+
+    </form>
+
+</body>
+<script type="text/javascript" src="../js/upload.js">
+</script>
+
+</html>

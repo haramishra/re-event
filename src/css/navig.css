@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3498DB;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2475B0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+
+    color: black ;
+    margin: 2% 10px 0% 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.notice {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#notice {}
+
+.sector {
+    width: 100%;
+    height: 100vh;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+.sector#register {
+    background-color: #DAE0E2;
+    box-shadow:
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC;
+}
+
+.sector#home {
+    background-image: url(/src/img/2home.jpg);
+    text-align: center;
+    width: 100%;
+    padding-top: -30px;
+    background-size: cover;
+
+}
+
+
+
+h5 {
+    display: inline;
+}
+
+.sector#register {
+    padding-top: 10%;
+
+}
+
+
+.nav {
+    padding-right: 30px;
+    position: fixed;
+    right: 0;
+    z-index: 9999;
+
+
+}
+
+*:focus {
+    outline: none;
+
+}
+
+body {}
+
+#icon{
+    width: 4.5em;
+    float: left;
+    left: 0;
+    margin-left: 1.5em;
+    position: fixed;
+    z-index: 99999;
+}
+
+.dv {
+    background-color: white;
+    width: 70%;
+    padding: 2.5em;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-image: linear-gradient(-60deg, #74B9FF, #4BCFFA, #4BCFFA, #0ABDE3, #25CCF7);
+}
+
+#result {
+    background-image: url(/src/img/result.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.blured {
+    width: 40em;
+    height: 25em;
+    margin: 0 auto;
+    margin-top: 8em;
+    z-index: 2;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    bottom: 0;
+
+}
+
+
+#proceed {
+    margin-top: 20px;
+
+}
+
+/* contact us sector */
+
+#contact {
+    padding: 6em .6em 0 .6em;
+}
+
+#home {
+    padding-top: 13em;
+    padding-right: 6em;
+    padding-left: 6em;
+}
+
+#mail {
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#typediv {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    background-color: ;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+
+}
+
+
+.downArrow{
+	position: absolute;
+	bottom: 0;
+    left: 43%;
+    font-size: 3em;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}

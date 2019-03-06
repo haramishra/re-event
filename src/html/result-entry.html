@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluate</title>
+    <link rel="shortcut icon" type="image/png" href="/src/img/fevicon.png" />
+    <!-- Bootstrap CDN start-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <h1>RESULT FORM</h1>
+
+            <form action="result-entry.php" method="post">
+
+                <span class="label label-info">roll number:</span>
+                <input type="text" class="form-control" name="roll" id="roll">
+                <span class="label label-info">cat1:</span>
+                <input type="number" name="cat1" id="cat1" placeholder="enter mark base on cat1" class="form-control">
+                <span class="label label-info">cat2:</span>
+                <input type="number" name="cat2" id="cat2" placeholder="enter mark base on cat2" class="form-control">
+                <span class="label label-info">cat3:</span>
+                <input type="number" name="cat3" id="cat3" placeholder="enter mark base on cat3" class="form-control">
+                <span class="label label-info">cat4:</span>
+                <input type="number" name="cat4" id="cat4" placeholder="enter mark base on cat4" class="form-control">
+                <span class="label label-info">cat5:</span>
+                <input type="number" name="cat5" id="cat5" placeholder="enter mark base on cat5" class="form-control">
+                <span class="label label-info">remarks:</span>
+                <textarea name="remarks" id="remarks" placeholder="remarks" cols="30" rows="10" class="form-control"></textarea><br>
+
+                <button type="submit" class="btn btn-primary" style="float: right" name="submit">Submit</button>
+
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
